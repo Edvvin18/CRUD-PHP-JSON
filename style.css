@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    font-family: sans-serif;
+    color: #555;
+}
+
+h2{
+    padding: 30px;
+    text-align: center;
+    font-size: 38px;
+    line-height: 38px;
+    color: #999;
+}
+
+table{
+    width: 100px;
+    margin: 50px auto;
+    margin-top: 4%;
+
+}
+
+table th{
+    padding: 10px auto;
+    background: #f4f4f4;
+
+}
+
+table td{
+    padding: 5px;
+    border: thin solid #d4d4d4;
+    text-align: center;
+    width: 10%;
+}
+
+table td p{
+    text-align: center;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+}
+
+.msg{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 44px;
+    line-height: 38px;
+    text-align: center;
+    background: #ddd;
+    color: #000;
+
+}
+
+.red{
+    color: red;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.green{
+    color: green;
+    margin-left: 10px;
+    cursor: pointer;
+}
