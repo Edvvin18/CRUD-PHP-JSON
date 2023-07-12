@@ -1,13 +1,11 @@
 function _i(id) {
     return document.getElementById(id)
 }
-
 function hidemsg() {
     window.setTimeout(function () {
         _i("msg").style.display = "none"
     }, 4000)
 }
-
 function fetch() {
     let data = new FormData()
     data.append('fetch', 'yes')
@@ -21,7 +19,6 @@ function fetch() {
     xhr.open('POST', 'ajax.php')
     xhr.send(data)
 }
-
 function addnew() {
     let data = new FormData()
     data.append('add', 'yes')
@@ -31,7 +28,6 @@ function addnew() {
     data.append('email', _i("email").innerHTML)
     data.append('endereco', _i("endereco").innerHTML)
     data.append('contacto', _i("contacto").innerHTML)
-
     var xhr = new XMLHttpRequest()
     xhr.onreadystatechange = function () {
         fetch();
@@ -44,7 +40,6 @@ function addnew() {
     xhr.send(data)
     hidemsg()
 }
-
 function del(id) {
     let data = new FormData()
     data.append('del', 'yes')
@@ -60,10 +55,7 @@ function del(id) {
     xhr.open('POST', 'ajax.php')
     xhr.send(data)
     hidemsg()
-
 }
-
-
 function cancelnew() {
     _i('id').innerHTML = ""
     _i('nome').innerHTML = ""
@@ -72,7 +64,6 @@ function cancelnew() {
     _i('endereco').innerHTML = ""
     _i('contacto').innerHTML = ""
 }
-
 function edit(id) {
     let data = new FormData()
     // var id = "id" + id
@@ -84,14 +75,12 @@ function edit(id) {
 
     data.append('edit', 'yes')
     data.append('id', id)
-
     // data.append('id', _i(id).innerHTML)
     data.append('nome', _i(nm).innerHTML)
     data.append('datan', _i(dtn).innerHTML)
     data.append('email', _i(eml).innerHTML)
     data.append('endereco', _i(end).innerHTML)
-    data.append('contacto', _i(cnt).innerHTML)
-
+    data.append('contacto', _i(cnt).innerHTML) 
     var xhr = new XMLHttpRequest()
     xhr.onreadystatechange = function () {
         fetch();
