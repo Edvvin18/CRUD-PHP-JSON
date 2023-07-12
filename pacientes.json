@@ -1,14 +1,1 @@
-[
-    
-        {
-            "id": 1,
-            "nome": "Edwin",
-            "sobrenome": "Banda",
-            "datan": 2004,
-            "email": "casemirobanda@gmail.com",
-            "endereco": "Maputo",
-            "palpasse": 1100,
-            "contacto": 846725213
-        }
-    
-    ]
+[{"id":"1","nome":"Banda","datan":"2000","email":"Banda","endereco":"Maputo","contacto":"000000000"},{"id":2,"nome":"Edwin","datan":"2004","email":"casemirobanda@gmail.com","endereco":"Maputo","contacto":"846725213"},{"id":3,"nome":"Samuel","datan":"1900","email":"SamuelMabalene@gmail","endereco":"Maputo","contacto":"842222222"},{"id":4,"nome":"Eleuterio","datan":"1973","email":"EBanda","endereco":"Maputo","contacto":"840001112"}]

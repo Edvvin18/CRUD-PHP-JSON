@@ -15,7 +15,6 @@ if(isset($_POST['del'])){
 if(isset($_POST['add'])){
     $id = $_POST['id'];
     $nome = $_POST['nome'];
-    $sobrenome = $_POST['sobrenome'];
     $datan = $_POST['datan'];
     $email = $_POST['email'];
     $endereco = $_POST['endereco'];
@@ -26,7 +25,6 @@ if(isset($_POST['add'])){
 if(isset($_POST['edit'])){
     $id = $_POST['id'];
     $nome = $_POST['nome'];
-    $sobrenome = $_POST['sobrenome'];
     $datan = $_POST['datan'];
     $email = $_POST['email'];
     $endereco = $_POST['endereco'];
